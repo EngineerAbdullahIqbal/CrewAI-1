@@ -1,0 +1,23 @@
+[project]
+name = "monitoring"
+version = "0.1.0"
+description = "monitoring using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[agentops,tools]>=0.100.0,<1.0.0",
+]
+
+[project.scripts]
+monitoring = "monitoring.main:run"
+run_crew = "monitoring.main:run"
+train = "monitoring.main:train"
+replay = "monitoring.main:replay"
+test = "monitoring.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"

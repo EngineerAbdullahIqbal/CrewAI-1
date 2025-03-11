@@ -1,0 +1,11 @@
+correct_code:
+  description: "Review and improve the code quality"
+  expected_output: "Improved code with better practices"
+  agent: "code_reviewer"
+  dependencies: []
+
+write_initial_code:
+  description: "Write initial code based on requirements"
+  expected_output: "Initial code implementation"
+  agent: "code_writer"
+  dependencies: [] 
