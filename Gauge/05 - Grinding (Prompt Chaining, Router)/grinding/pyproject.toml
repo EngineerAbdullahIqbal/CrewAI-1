@@ -1,0 +1,26 @@
+[project]
+name = "grinding"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "EngineerAbdulQadir", email = "abdulqadirimran001@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "crewai>=0.102.0",
+    "litellm>=1.60.2",
+]
+
+[project.scripts]
+grinding = "grinding:main"
+simpleflow = "grinding.simpleflow:kickoff"
+promptchain = "grinding.promptchain:kickoff"
+routerun = "grinding.router:kickoff"
+routeplot = "grinding.router:plot"
+routerenchantrun = "grinding.routerenchantment:kickoff"
+routerenchantplot = "grinding.routerenchantment:plot"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
