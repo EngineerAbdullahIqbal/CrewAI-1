@@ -1,125 +1,78 @@
-# **CrewAI**
-> _This repository highlights innovative implementations and applications of Multi Agent Systems using_ **CrewAI**.
+# CrewAI
 
----
+This repository highlights innovative implementations and applications of Multi Agent Systems using **CrewAI**.
+
+## Table of Contents
+
+- [Core Concepts](#core-concepts)
+- [Projects](#projects)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Core Concepts
 
-<h3>1. Unlocked</h3>
+The projects below illustrate the core components of CrewAI:
 
-[**View Project**](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/01%20-%20Unlocked/uv-helloworld)
+1. **Unlocked**  
+   [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/01%20-%20Unlocked/uv-helloworld)
 
----
+2. **Sculptor**  
+   [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/02%20-%20Sculptor/uv-project)
 
-<h3>2. Sculptor</h3>
+3. **LiteLLM**  
+   [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/03%20-%20LiteLLM/litellm-project)
 
-[**View Project**](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/02%20-%20Sculptor/uv-project)
+4. **Basic Flow**  
+   [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/04%20-%20Basic%20Flow/crew_flow)
 
----
+5. **Grinding (Prompt Chaining, Router)**  
+   [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/05%20-%20Grinding%20(Prompt%20Chaining%2C%20Router)/grinding)
 
-<h3>3. LiteLLM</h3>
+6. **Advance Flow**  
+   [View Project]()
 
-[**View Project**](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/03%20-%20LiteLLM/litellm-project)
+7. **Dev Crew**  
+   [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/07%20-%20Dev%20Crew)
 
----
+8. **Flow Deployment**  
+   [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/08%20-%20Flow%20Deployment/deploy)
 
-<h3>4. Basic Flow</h3>
+9. **Agent Monitoring (Openlit)**  
+   [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/09%20-%20Agent%20Monitoring%20(Openlit)/monitoring)
 
-[**View Project**](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/04%20-%20Basic%20Flow/crew_flow)
+10. **Agent Monitoring (AgentOPS)**  
+    [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/10%20-%20Agent%20Monitoring%20(AgentOps)/monitoring)
 
----
+11. **Planning Crew**  
+    [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/11%20-%20Planning%20Crew)
 
-<h3>5. Grinding (Prompt Chaining, Router)</h3>
+12. **Testing Crew**  
+    [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/12%20-%20Testing%20Crew)
 
-[**View Project**](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/05%20-%20Grinding%20(Prompt%20Chaining%2C%20Router)/grinding)
+13. **Training Crew**  
+    [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/13%20-%20Training%20Crew)
 
----
+14. **Knowledge**  
+    [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/14%20-%20Knowledge)
 
-<h3>6. Advance Flow</h3>
+15. **Memory**  
+    [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/15%20-%20Memory)
 
-[**View Project**]()
+16. **Tools**  
+    [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/16%20-%20Tools)
 
----
+17. **Process & Collaboration**  
+    [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/17%20-%20Process%20%26%20Collaboration)
 
-<h3>7. Dev Crew</h3>
+18. **Advance Tools**  
+    [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/18%20-%20Advanced%20Tools)
 
-[**View Project**](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/07%20-%20Dev%20Crew)
+19. **Augmented LLMs**  
+    [View Project]()
 
----
+20. **Multi AI Agents**  
+    [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/20%20-%20Multi%20AI%20Agents)
 
-<h3>8. Flow Deployment</h3>
+## License
 
-[**View Project**](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/08%20-%20Flow%20Deployment/deploy)
-
----
-
-<h3>9. Agent Monitoring (Openlit)</h3>
-
-[**View Project**](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/09%20-%20Agent%20Monitoring%20(Openlit)/monitoring)
-
----
-
-<h3>10. Agent Monitoring (AgentOPS)</h3>
-
-[**View Project**](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/10%20-%20Agent%20Monitoring%20(AgentOps)/monitoring)
-
----
-
-<h3>11. Planning Crew</h3>
-
-[**View Project**](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/11%20-%20Planning%20Crew)
-
----
-
-<h3>12. Testing Crew</h3>
-
-[**View Project**](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/12%20-%20Testing%20Crew)
-
----
-
-<h3>13. Training Crew</h3>
-
-[**View Project**](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/13%20-%20Training%20Crew)
-
----
-
-<h3>14. Knowledge</h3>
-
-[**View Project**](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/14%20-%20Knowledge)
-
----
-
-<h3>15. Memory</h3>
-
-[**View Project**](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/15%20-%20Memory)
-
----
-
-<h3>16. Tools</h3>
-
-[**View Project**](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/16%20-%20Tools)
-
----
-
-<h3>17. Process & Collaboration</h3>
-
-[**View Project**](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/17%20-%20Process%20%26%20Collaboration)
-
----
-
-<h3>18. Advance Tools</h3>
-
-[**View Project**](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/18%20-%20Advanced%20Tools)
-
----
-
-<h3>19. Augmented LLMs</h3>
-
-[**View Project**]()
-
----
-
-<h3>20. Multi AI Agents</h3>
-
-[**View Project**]()
-
----
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
