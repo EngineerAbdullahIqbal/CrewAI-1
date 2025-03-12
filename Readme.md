@@ -5,8 +5,6 @@ This repository highlights innovative implementations and applications of Multi 
 ## Table of Contents
 
 - [Core Concepts](#core-concepts)
-- [Projects](#projects)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Core Concepts
