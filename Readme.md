@@ -5,6 +5,7 @@ This repository highlights innovative implementations and applications of Multi 
 ## Table of Contents
 
 - [Core Concepts](#core-concepts)
+- [Deployment](#deployment)
 - [License](#license)
 
 ## Core Concepts
@@ -70,6 +71,12 @@ The projects below illustrate the core components of CrewAI:
 
 20. **Multi AI Agents**  
     [View Project](https://github.com/EngineerAbdulQadir/CrewAI/tree/main/Gauge/20%20-%20Multi%20AI%20Agents)
+
+
+## Deployment
+
+1. **Flow**  
+    [View Project](https://github.com/EngineerAbdulQadir/CrewAI-Flow-Deployment)
 
 ## License
 
