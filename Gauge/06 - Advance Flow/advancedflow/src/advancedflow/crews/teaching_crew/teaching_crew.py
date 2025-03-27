@@ -1,29 +1,40 @@
-from crewai import Agent, Task, Crew
-from crewai.project import CrewBase, agent, crew, task
+from crewai import Agent, Task, Crew , Process
+from crewai.project import CrewBase, agent, crew , task 
+from crewai import LLM
+import os
+
+my_llm = LLM(
+    model=os.getenv("MODEL"),
+    api_key=os.getenv("GEMINI_API_KEY"),
+)
 
 @CrewBase
 class TeachingCrew:
    # 1. Agent 
-   agent_config = "config/agents.yaml"
-   task_config = "config/tasks.yaml"
+   agents_config = "config/agents.yaml"
+   tasks_config = "config/tasks.yaml"
    
    @agent
-   def sir_me_agent(self) -> Agent:
+   def senior_lecturer(self) -> Agent:
        return Agent(
-           config=self.agent_config["sir_me"],
+           config=self.agents_config["senior_lecturer"],
+           llm=my_llm
        )
        
    # 2. Task
    @task
-   def describe_topic_task(self) -> Task:
+   def take_lecture(self) -> Task:
        return Task(
-           config=self.task_config["describe_topic"],
+           config=self.tasks_config["take_lecture"], 
        )
    
    # 3. Crew
-   def teaching_crew(self) -> Crew:
+   @crew
+   def crew(self) -> Crew:
        return  Crew(
             agents=self.agents,
             tasks=self.tasks,
-            verbose=True
+            verbose=True,
+            # process=Process.sequential,
+            llm=my_llm
        )

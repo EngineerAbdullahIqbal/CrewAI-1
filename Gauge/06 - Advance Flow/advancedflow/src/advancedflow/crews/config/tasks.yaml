@@ -1,6 +1,0 @@
-describe_topic:
-  desctiption: >
-    "Describe the {topic} to the students."
-  expected_output: >
-    "The students should be able to understand the basics of {topic} after this task."
-  agents: sir_me
